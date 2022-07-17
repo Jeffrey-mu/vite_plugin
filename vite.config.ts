@@ -4,5 +4,7 @@ import myPlugin from './my_plugin'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(),
-  myPlugin()]
+  myPlugin({
+    name: 'zs'
+  })]
 })
